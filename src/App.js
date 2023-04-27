@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import './style.css';
+import PokeHeader from './components/PokeHeader';
+import PokeFooter from './components/PokeFooter';
+import PokeHome from './components/PokeHome'
+import PokeDex from './components/PokeDex'
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BrowserRouter>
+      <PokeHeader />
+        <Routes>
+          <Route path="/" element={<PokeHome />} />
+          <Route path="/pokedex" element={<PokeDex />} />
+          <Route path="*" element={<p>Not found</p>} />
+        </Routes>
+      </BrowserRouter>
+      <PokeFooter />
     </div>
   );
 }
