@@ -13,7 +13,7 @@ function PokeHeader() {
                   onclick="document.querySelector('.Pokelux-Heading').scrollIntoView({behavior: 'smooth'})">About
                   Us</button>
              <button href="#"
-                  onclick={Donate}>Support</button>
+                  onClick={Donate}>Support</button>
         </nav>
         </header>
     )
