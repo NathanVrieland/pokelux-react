@@ -2,7 +2,7 @@
   "name": "pokelux-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://NathanVrieland.github.io/pokelux-react/",
+  "homepage": "https://NathanVrieland.github.io/",
 
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
