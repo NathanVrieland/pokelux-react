@@ -1,0 +1,51 @@
+
+img {
+    image-rendering: crisp-edges;
+    transition: transform 0.3s ease-out;
+}
+img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+td {
+    padding-right: 50px;
+}
+
+form {
+    padding: 10px;
+}
+
+#pokeinfo {
+    background-color: #171714;
+}
+
+#PokeSearch {
+    background-color: #333;
+}
+
+input {
+    border-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1e1e1e;
+    color: #d3d3d3;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+input:nth-child(even) {
+    background-color: #565656;
+    color: #d3d3d3;
+}
+
+input[type="button"]:hover {
+    background-color: #b2a4ff;
+}
+
+#errortext {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    color: red;
+}

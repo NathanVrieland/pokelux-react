@@ -1,3 +1,4 @@
+import "./Search.css"
 function Search(event) {
     document.getElementById("errortext").innerHTML = ""
     const pokedexurl = 'https://beta.pokeapi.co/graphql/v1beta'
