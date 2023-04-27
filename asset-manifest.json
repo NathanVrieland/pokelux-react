@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/pokelux-react/static/css/main.6c9cbe69.css",
+    "main.js": "/pokelux-react/static/js/main.f4cb7f84.js",
+    "static/js/787.01bcc42b.chunk.js": "/pokelux-react/static/js/787.01bcc42b.chunk.js",
+    "static/media/Charizard.png": "/pokelux-react/static/media/Charizard.68b9fe5bcb805210d23c.png",
+    "static/media/Ash.png": "/pokelux-react/static/media/Ash.428c402af7979644106d.png",
+    "static/media/Ivysaur.png": "/pokelux-react/static/media/Ivysaur.8a8db89414fe08101e26.png",
+    "static/media/Pokeball.png": "/pokelux-react/static/media/Pokeball.23296ee04619941b30ee.png",
+    "static/media/Pikachu.png": "/pokelux-react/static/media/Pikachu.6c94309028c267dd8403.png",
+    "index.html": "/pokelux-react/index.html",
+    "main.6c9cbe69.css.map": "/pokelux-react/static/css/main.6c9cbe69.css.map",
+    "main.f4cb7f84.js.map": "/pokelux-react/static/js/main.f4cb7f84.js.map",
+    "787.01bcc42b.chunk.js.map": "/pokelux-react/static/js/787.01bcc42b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6c9cbe69.css",
+    "static/js/main.f4cb7f84.js"
+  ]
+}
