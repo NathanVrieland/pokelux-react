@@ -5,10 +5,10 @@ function PokeFooter() {
           <div class="fullfoot">
                <div class="footrow">
                     <div class="email">
-                         <a href="mailto:info@yourwebsite.com">Contact Us</a>
+                         <span>Contact Us</span>
                     </div>
                     <div class="privacy">
-                         <a href="#">Privacy Policy</a>
+                         <span>Privacy Policy</span>
                     </div>
                     <div class="copyright">
                          &copy; Pokélux 2023. All Rights Reserved.
