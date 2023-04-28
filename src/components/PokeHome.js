@@ -1,3 +1,4 @@
+import React from 'react';
 import Ash from '../Poke Pics/Ash.png';
 import Pikachu from '../Poke Pics/Pikachu.png';
 import Ivysaur from '../Poke Pics/Ivysaur.png';

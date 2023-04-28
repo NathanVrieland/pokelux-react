@@ -1,5 +1,6 @@
 import Logo from "../Poke Pics/Pokeball.png";
 import {Link} from 'react-router-dom';
+import React from 'react';
 import Donate from "./Donate";
 
 function PokeHeader() {
