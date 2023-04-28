@@ -1,3 +1,4 @@
+import React from 'react';
 import './style.css';
 import PokeHeader from './components/PokeHeader';
 import PokeFooter from './components/PokeFooter';
